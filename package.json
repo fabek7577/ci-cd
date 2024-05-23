@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint -c .eslint --ext .js,.jsx ."
+    "lint": "eslint -c .eslintrc --ext .js,.jsx .",
+    "format": "prettier --write"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +36,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "prettier": {
+    "singleQuote": false
   }
 }

@@ -16,7 +16,7 @@
       "no-unused-vars": "warn",
       "no-undef": "warn",
       "indent": ["warn", 2],
-      "quotes": ["warn", "single"],
+      "quotes": ["warn", "double"],
       "jest/valid-expect": 0
     }
 }  
