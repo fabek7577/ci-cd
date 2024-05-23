@@ -16,7 +16,7 @@ jobs:
     - name: install modules
       run: npm install
     - name: unit test
-      run: npm run test:unit
+      run: npm run test
     - name: prettier code
       run: npm run format
     - name: lint code
